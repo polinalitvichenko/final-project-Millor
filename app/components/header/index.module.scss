@@ -1,11 +1,11 @@
 .headerContainer {
-  @apply fixed w-full z-10;
+  @apply fixed z-10 max-w-[1660px] w-full mx-auto items-center py-[22px];
 
   .headerContainerWrapper {
     @apply py-5;
 
     .headerContainerWrapperItems {
-      @apply flex flex-row items-center justify-between ;
+      @apply flex w-full items-center justify-between ;
     }
   }
 }
