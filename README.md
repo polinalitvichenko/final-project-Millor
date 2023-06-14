@@ -1,8 +1,10 @@
-# Tproperty management
+# Coffee Shop Website
+
+This repository contains the source code for a multi-page coffee shop website. The website allows users to browse and purchase various coffee products.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
