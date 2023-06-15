@@ -2,18 +2,39 @@
 
 This repository contains the source code for a multi-page coffee shop website. The website allows users to browse and purchase various coffee products.
 
+## Authors
+
+- [@polinalitvichenko](https://github.com/polinalitvichenko)
+- [@RoshchukIlya](https://github.com/RoshchukIlya)
+
+## Technologies Used
+
+The project utilizes the following technologies:
+
+- [axios](https://www.npmjs.com/package/axios) - Promise-based HTTP client for the browser and Node.js
+- [eslint](https://www.npmjs.com/package/eslint) - JavaScript and TypeScript linter
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next) - ESLint configuration for Next.js projects
+- [next](https://www.npmjs.com/package/next) - React framework for server-rendered applications
+- [postcss](https://www.npmjs.com/package/postcss) - CSS post-processor
+- [react](https://www.npmjs.com/package/react) - JavaScript library for building user interfaces
+- [react-dom](https://www.npmjs.com/package/react-dom) - Entry point for React on the web
+- [react-icons](https://www.npmjs.com/package/react-icons) - Icons library for React
+- [sass](https://www.npmjs.com/package/sass) - CSS extension language
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss) - Utility-first CSS framework
+- [typescript](https://www.npmjs.com/package/typescript) - Typed superset of JavaScript
+
 ## Getting Started
 
 Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-The following software is required to be installed on your system:
+Make sure you have the following software installed on your system:
 
-* Node 18.x
-* Npm 8.x
+- Node.js 18.x
+- npm 8.x
 
-Type the following commands in the terminal to verify your node and npm versions
+To verify your Node.js and npm versions, run the following commands in the terminal:
 
 ```bash
 node -v
@@ -36,39 +57,38 @@ You may also see any lint errors in the console.
 
 Follow the following steps to get development environment running.
 
+```bash
+git clone https://github.com/toutEstCool/next-prisma.git
+```
 
+_OR USING SSH_
+
+```bash
+git@github.com:toutEstCool/next-prisma.git
+```
+
+- Install node modules
 
   ```bash
-  git clone https://github.com/toutEstCool/next-prisma.git
+   npm install
   ```
-
-  _OR USING SSH_
-
-  ```bash
-  git@github.com:toutEstCool/next-prisma.git
-  ```
-
-* Install node modules
-
-   ```bash
-    npm install
-   ```
-
 
 ### Starting front-end servers
 
-* Build application
+- Build application
 
   ```bash
   npm start dev
   ```
+
 ---
 
 ## Branches
 
 Prefixes for branches
-* feature - feature, task, spike
-* fix - bugs
+
+- feature - feature, task, spike
+- fix - bugs
 
 A branch name should be named in following format:
 
@@ -82,6 +102,7 @@ Commit messages should be detailed and be descriptive in following format:
 - The description should clearly describe the changes which were done within the code or any other artifacts included into the commit
 
 Pull Requests (PR)
+
 - After receiving 1 approvals, the developer must execute Squash and Merge
 - Use a default PR template
 - PR name should follow a template `[PM-clickupTaskId]: task-name`
