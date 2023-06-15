@@ -1,12 +1,9 @@
 'use client';
-import { IPropsContainer } from "./IProps.interface";
+import { IPropsContainer } from './IProps.interface';
+import styles from './index.module.scss';
 
 const Container: React.FC<IPropsContainer> = ({ children }) => {
-  return (
-    <div className="max-w-[1660px] mx-auto">
-      {children}
-    </div>
-  )
-}
+  return <div className={styles.container}>{children}</div>;
+};
 
-export default Container
+export default Container;
