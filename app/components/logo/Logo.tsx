@@ -4,14 +4,14 @@ import styles from './index.module.scss';
 
 const Logo = () => {
   return (
-    <Image 
-      alt='Millor logo'
-      className='styles.logoImg'
-      height='111'
-      width='260'
-      src='/images/logo.svg'
-title='AirBnb Logo'
+    <Image
+      alt="Millor logo"
+      className={styles.logoImg}
+      height="111"
+      width="260"
+      src="/images/logo.svg"
     />
-  )}
+  );
+};
 
-export default Logo
+export default Logo;
