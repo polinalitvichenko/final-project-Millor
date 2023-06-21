@@ -1,0 +1,11 @@
+.userMenuContainer {
+  &Wrapper {
+    @apply flex items-center gap-[53px] md:gap-[40px] min-[375px]:gap-[60px] min-[240px]:gap-[30px];
+  }
+  &ShoppingCardIcon {
+    @apply w-[33px] h-[31px] md:w-[22px] md:h-[22px] min-[375px]:w-[38px] min-[375px]:h-[34px]  min-[240px]:w-[19px] min-[240px]:h-[17px];
+  }
+  &UserIcon {
+    @apply w-[29px] h-[32px] md:w-[22px] md:h-[22px] min-[375px]:w-[34px] min-[375px]:h-[40px]  min-[240px]:w-[17px] min-[240px]:h-[20px];
+  }
+}

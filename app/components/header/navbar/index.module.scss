@@ -1,0 +1,5 @@
+.navBarContainer {
+  &Items {
+    @apply flex items-center gap-[100px] text-[25px] md:gap-[66px] md:text-[18px];
+  }
+}
