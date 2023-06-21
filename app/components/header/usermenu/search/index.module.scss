@@ -1,0 +1,17 @@
+.searchContainer {
+  @apply absolute right-[9%] top-[26%] bg-white max-w-[1240px] w-full px-[30px] py-[14px] shadow-[0px_5px_20px_rgba(157,157,157,0.25)]  rounded-[30px] md:max-w-[880px] md:py-[14px];
+  &Items {
+    @apply flex items-center justify-start max-h-[42px];
+    &isOpenBtn {
+      @apply mr-[20px] text-neutral-300 w-[32px] h-[31px] md:w-[22px] md:h-[22px];
+    }
+    &Input {
+      @apply border-none focus:border-transparent focus:outline-none font-medium text-base leading-6 text-gray-400;
+    }
+    &Btn {
+      @apply w-[32px] h-[31px] md:w-[22px] md:h-[22px] min-[375px]:w-[34px] min-[375px]:h-[34px]  min-[240px]:w-[17px] min-[240px]:h-[17px];
+    }
+  }
+}
+
+//w-[90%]

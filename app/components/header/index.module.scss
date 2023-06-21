@@ -1,11 +1,3 @@
-.headerContainer {
-  @apply fixed z-10 max-w-[1660px] w-full mx-auto items-center py-[22px];
-
-  .headerContainerWrapper {
-    @apply py-5;
-
-    .headerContainerWrapperItems {
-      @apply flex w-full items-center justify-between ;
-    }
-  }
+.headerContainerWrapperItems {
+  @apply relative flex items-center justify-between py-[22px]  md:py-[20px] min-[375px]:py-[20px] min-[240px]:py-[10px];
 }
