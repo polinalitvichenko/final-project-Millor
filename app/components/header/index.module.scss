@@ -1,3 +1,14 @@
 .headerContainerWrapperItems { 
   @apply w-full flex items-center justify-between py-[22px]  md:py-[20px] min-[375px]:py-[20px] min-[240px]:py-[10px]; 
 }
+.headerContainer {
+  @apply w-full z-10;
+
+  .headerContainerWrapper {
+    @apply py-5;
+
+    .headerContainerWrapperItems {
+      @apply flex flex-row items-center justify-between;
+    }
+  }
+}
