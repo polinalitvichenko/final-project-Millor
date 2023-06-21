@@ -1,8 +1,6 @@
 import './globals.css';
-import { Nunito } from 'next/font/google';
 import Header from './components/header/Header';
-
-const nunito = Nunito({ subsets: ['latin'] });
+import { styles } from './components/fontsstyle/FontsStyle';
 
 export const metadata = {
   title: 'кофе +',
@@ -12,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={nunito.className}>
+      <body style={styles}>
         <Header />
         {children}
       </body>
